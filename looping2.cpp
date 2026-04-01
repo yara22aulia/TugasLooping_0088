@@ -66,7 +66,8 @@ void tampilFibonacci(
 }
 
 // function menu
-void menu() 
+void menu(
+) 
 {
     cout << "\n===== MENU =====" << endl;
     cout << "1. Cek Bilangan Prima" << endl;
