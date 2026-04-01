@@ -78,7 +78,8 @@ void menu(
 }
 
 // main program
-int main() {
+int main() 
+{
 
     while (true) {
         menu();
