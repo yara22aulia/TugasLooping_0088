@@ -5,7 +5,8 @@ using namespace std;
 int n, pilihan;
 
 // fungsi cek bilangan prima
-bool cekPrima(int n) 
+bool cekPrima(int n
+) 
 {
     if (n <= 1) return false;
 
@@ -20,7 +21,8 @@ bool cekPrima(int n)
 }
 
 // fungsi cek bilangan fibonacci
-bool cekFibonacci(int n) {
+bool cekFibonacci(int n) 
+{
     int a = 0, b = 1, c;
 
     while (a <= n) {
