@@ -47,7 +47,8 @@ void input(
 }
 
 // prosedur tampil hasil
-void tampilPrima() {
+void tampilPrima() 
+{
     if (cekPrima(n))
         cout << n << " adalah bilangan prima" << endl;
     else
