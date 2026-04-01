@@ -5,7 +5,8 @@ using namespace std;
 int n, pilihan;
 
 // fungsi cek bilangan prima
-bool cekPrima(int n) {
+bool cekPrima(int n) 
+{
     if (n <= 1) return false;
 
     int i = 2;
