@@ -27,7 +27,8 @@ bool cekFibonacci(int n)
 
     while (a <= n) 
     {
-        if (a == n) {
+        if (a == n) 
+        {
             return true;
         }
         c = a + b;
