@@ -82,7 +82,8 @@ int main(
 ) 
 {
 
-    while (true) {
+    while (true) 
+    {
         menu();
 
         switch (pilihan) {
