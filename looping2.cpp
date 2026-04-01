@@ -47,7 +47,8 @@ void input(
 }
 
 // prosedur tampil hasil
-void tampilPrima() 
+void tampilPrima(
+) 
 {
     if (cekPrima(n))
         cout << n << " adalah bilangan prima" << endl;
@@ -55,7 +56,8 @@ void tampilPrima()
         cout << n << " bukan bilangan prima" << endl;
 }
 
-void tampilFibonacci() {
+void tampilFibonacci() 
+{
     if (cekFibonacci(n))
         cout << n << " termasuk bilangan Fibonacci" << endl;
     else
